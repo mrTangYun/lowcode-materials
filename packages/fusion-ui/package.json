@@ -1,6 +1,6 @@
 {
-  "name": "@mrtangyun/fusion-ui",
-  "version": "1.0.8-beta.0",
+  "name": "@alifd/fusion-ui",
+  "version": "1.0.8",
   "description": "A component library based on Fusion Next",
   "files": [
     "es/",
