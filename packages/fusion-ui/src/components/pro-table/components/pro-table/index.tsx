@@ -44,7 +44,7 @@ export const ProTable: React.FC<ProTableProps> = (props: ProTableProps) => {
   const columnsFiltersCtxValue = useColumnsFilterValue(props);
   const columnsSettingCtxValue = useColumnsSettingValue(props);
   const proTableSettingCtxValue = useProTableSettingValue(props);
-  const { paginationProps, settingButtons } = props;
+  const { paginationProps, settingButtons, onPageChange } = props;
   const proTableContainer = React.useRef<HTMLDivElement>();
   const tableBeforeContainer = React.useRef<HTMLDivElement>();
 
@@ -127,6 +127,7 @@ export const ProTable: React.FC<ProTableProps> = (props: ProTableProps) => {
                     <Pagination
                       className="fusion-ui-pagination"
                       {...paginationProps}
+                      onChange={onPageChange}
                       popupProps={{
                         container: proTableContainer.current,
                         ...paginationProps.popupProps,
