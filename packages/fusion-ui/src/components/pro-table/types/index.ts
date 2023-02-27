@@ -461,4 +461,12 @@ export interface ProTableProps
   isExpandedChild?: boolean;
 
   paginationProps?: Record<string, any>;
+
+  onPageChange?: (
+    page: number,
+  ) => void;
+  /**
+   * 高级表格点击分页的回调
+   * @param page 页码
+   */
 }
