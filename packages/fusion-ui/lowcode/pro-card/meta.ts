@@ -16,7 +16,7 @@ const FusionUICardMeta = deepClone(CardMeta);
 const FusionUICardSectionMeta = deepClone(CardSectionMeta);
 
 FusionUICardMeta.npm = {
-  package: '@mrtangyun/fusion-ui',
+  package: '@alifd/fusion-ui',
   version: '1.0.0',
   exportName: 'ProCard',
   main: 'lib/index.js',
@@ -24,7 +24,7 @@ FusionUICardMeta.npm = {
   subName: '',
 };
 FusionUICardSectionMeta.npm = {
-  package: '@mrtangyun/fusion-ui',
+  package: '@alifd/fusion-ui',
   version: '1.0.0',
   exportName: 'ProCard',
   main: 'lib/index.js',

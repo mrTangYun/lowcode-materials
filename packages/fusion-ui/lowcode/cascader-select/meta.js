@@ -7,7 +7,7 @@ export default {
   docUrl: '',
   screenshot: '',
   npm: {
-    package: '@mrtangyun/fusion-ui',
+    package: '@alifd/fusion-ui',
     version: '{{version}}',
     exportName: 'FormCascaderSelect',
     main: '',

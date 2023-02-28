@@ -7,7 +7,7 @@ const FilterItemMeta: ComponentMetadata = {
   screenshot: '',
   devMode: 'proCode',
   npm: {
-    package: '@mrtangyun/fusion-ui',
+    package: '@alifd/fusion-ui',
     version: '0.1.6-beta.8',
     exportName: 'FilterItem',
     main: 'lib/index.js',

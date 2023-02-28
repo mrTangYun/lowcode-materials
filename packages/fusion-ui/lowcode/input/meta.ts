@@ -426,7 +426,7 @@ const meta = {
   docUrl: '',
   screenshot: '',
   npm: {
-    package: '@mrtangyun/fusion-ui',
+    package: '@alifd/fusion-ui',
     version: '{{version}}',
     exportName: 'FormInput',
     main: '',

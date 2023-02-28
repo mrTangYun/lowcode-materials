@@ -7,7 +7,7 @@ module.exports = {
   screenshot: '',
   devMode: 'proCode',
   npm: {
-    package: '@mrtangyun/fusion-ui',
+    package: '@alifd/fusion-ui',
     version: '1.0.0',
     exportName: 'PageHeader',
     main: 'lib/index.js',

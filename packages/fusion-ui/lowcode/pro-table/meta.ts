@@ -11,7 +11,7 @@ const meta: IAssets = {
       screenshot: '',
       devMode: 'proCode',
       npm: {
-        package: '@mrtangyun/fusion-ui',
+        package: '@alifd/fusion-ui',
         version: '1.0.24-21',
         exportName: 'ProTableSlot',
         main: 'lib/index.js',

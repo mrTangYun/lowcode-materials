@@ -38,11 +38,11 @@ const wrapWithP = (dragment, node, dropTargetName, layoutPNode) => {
 const meta = {
   componentName: 'Drawer',
   title: '抽屉',
-  group: '赞友组件',
+  group: '精选组件',
   docUrl: '',
   screenshot: '',
   npm: {
-    package: '@mrtangyun/fusion-ui',
+    package: '@alifd/fusion-ui',
     version: '0.1.6-beta.23',
     exportName: 'ProDrawer',
     main: 'lib/index.js',

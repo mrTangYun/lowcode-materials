@@ -7,11 +7,11 @@ const ChildFormMeta: ComponentMetadata = {
   docUrl: '',
   screenshot: '',
   category: '表单类',
-  group: '赞友组件',
+  group: '精选组件',
   devMode: 'proCode',
   hidden: true,
   npm: {
-    package: '@mrtangyun/fusion-ui',
+    package: '@alifd/fusion-ui',
     version: '0.1.6-beta.24',
     exportName: 'ChildForm',
     main: 'lib/index.js',
