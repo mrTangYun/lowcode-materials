@@ -1,6 +1,6 @@
 {
   "name": "@mrtangyun/fusion-ui",
-  "version": "1.0.8-beta.0",
+  "version": "1.0.8-beta.2",
   "description": "A component library based on Fusion Next",
   "files": [
     "es/",
@@ -85,12 +85,12 @@
     "webpack": "4.x"
   },
   "license": "MIT",
-  "homepage": "https://unpkg.com/@alifd/fusion-ui@1.0.8/build/index.html",
+  "homepage": "https://unpkg.com/@mrtangyun/fusion-ui@1.0.8-beta.1/build/index.html",
   "componentConfig": {
     "name": "FusionUI",
     "category": "精品物料库",
     "isComponentLibrary": true,
-    "materialSchema": "https://alifd.alicdn.com/npm/@alifd/fusion-ui@1.0.8/build/lowcode/assets-prod.json"
+    "materialSchema": "https://alifd.alicdn.com/npm/@mrtangyun/fusion-ui@1.0.8-beta.1/build/lowcode/assets-daily.json"
   },
   "husky": {
     "hooks": {

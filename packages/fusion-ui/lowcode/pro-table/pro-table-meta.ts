@@ -294,8 +294,8 @@ export const proTableMeta: IComponentDescription = {
   category: '表格类',
   tags: ['业务组件'],
   npm: {
-    package: '@alifd/fusion-ui',
-    version: '1.0.24-21',
+    package: '@mrtangyun/fusion-ui',
+    version: '1.0.8-beta.2',
     exportName: 'ProTable',
     main: 'lib/index.js',
     destructuring: true,
