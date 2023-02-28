@@ -7,7 +7,7 @@ export default {
   docUrl: '',
   screenshot: '',
   npm: {
-    package: '@alifd/fusion-ui',
+    package: '@mrtangyun/fusion-ui',
     version: '{{version}}',
     exportName: 'FormRangePicker',
     main: '',
