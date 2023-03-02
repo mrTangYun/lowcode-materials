@@ -18,6 +18,13 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 16
+      # 读取 package.json 文件内容
+      - name: read version
+        id: version
+        uses: ashley-taylor/read-json-property-action@v1.0
+        with:
+          path: packages/fusion-ui/package.json
+          property: version
 
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
@@ -35,19 +42,7 @@ jobs:
           name: production-files
           path: |
             packages/fusion-ui/build
-            packages/fusion-ui/dist
-            
-      - name: Upload dist-files build files
-        uses: actions/upload-artifact@v3
-        with:
-          name: dist-files
-          path: packages/fusion-ui/dist
-          
-      - name: Upload build-files build files
-        uses: actions/upload-artifact@v3
-        with:
-          name: build-files
-          path: packages/fusion-ui/build
+            packages/fusion-ui/package.json
 
   # deploy:
   #   name: DeployToGithubPage
