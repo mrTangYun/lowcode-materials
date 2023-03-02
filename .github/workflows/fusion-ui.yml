@@ -34,8 +34,20 @@ jobs:
         with:
           name: production-files
           path: |
-            packages/fusion-ui/dist
             packages/fusion-ui/build
+            packages/fusion-ui/dist
+            
+      - name: Upload dist-files build files
+        uses: actions/upload-artifact@v3
+        with:
+          name: dist-files
+          path: packages/fusion-ui/dist
+          
+      - name: Upload build-files build files
+        uses: actions/upload-artifact@v3
+        with:
+          name: build-files
+          path: packages/fusion-ui/build
 
   # deploy:
   #   name: DeployToGithubPage
