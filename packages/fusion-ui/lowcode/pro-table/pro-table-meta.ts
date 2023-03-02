@@ -295,7 +295,7 @@ export const proTableMeta: IComponentDescription = {
   tags: ['业务组件'],
   npm: {
     package: '@mrtangyun/fusion-ui',
-    version: '1.0.8-beta.3',
+    version: '1.0.8-beta.6',
     exportName: 'ProTable',
     main: 'lib/index.js',
     destructuring: true,
